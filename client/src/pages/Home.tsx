@@ -9,7 +9,7 @@ import { useToast } from "@/hooks/use-toast";
 
 // Import images
 import logoMark from "@assets/gigi_topia1_1772112316204.png";
-import logoText from "@assets/gigi_topia2_1772112281730.png";
+import logoText from "@assets/gigi_topianew_1772112968712.png";
 import clinicImg from "@/assets/clinic.jpg";
 import dentistImg from "@/assets/dentist.jpg";
 
@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground">
       {/* Navbar */}
-      <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-md">
+      <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/60 backdrop-blur-md">
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
             <img src={logoMark} alt="Gigitopia Logo" className="h-10 w-auto object-contain" />
@@ -89,9 +89,6 @@ export default function Home() {
                   <Button size="lg" className="w-full sm:w-auto rounded-full text-base h-14 px-8" onClick={() => scrollToSection('booking')}>
                     Booking Sekarang <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <CheckCircle2 className="w-5 h-5 text-secondary" /> Konsultasi Gratis*
-                  </div>
                 </div>
               </div>
               
@@ -214,6 +211,14 @@ export default function Home() {
                 </Card>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* Doctor Section */}
+        <section className="py-16 bg-background">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl md:text-5xl font-bold text-primary">Praktek Drg. Jasmine Badjuber</h2>
+            <div className="w-24 h-1 bg-secondary mx-auto mt-6 rounded-full"></div>
           </div>
         </section>
 
