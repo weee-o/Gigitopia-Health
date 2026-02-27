@@ -165,7 +165,6 @@ export default function Home() {
               {[
                 { title: "Pemeriksaan Rutin", desc: "Cek kesehatan gigi menyeluruh untuk mencegah masalah sejak dini.", icon: "🦷" },
                 { title: "Pembersihan Karang Gigi", desc: "Scaling profesional untuk gigi bersih, sehat, dan nafas segar.", icon: "✨" },
-                { title: "Kawat Gigi & Behel", desc: "Perawatan ortodonti untuk merapikan susunan gigi Anda.", icon: "😁" },
                 { title: "Pemutihan Gigi", desc: "Bleaching aman untuk senyum putih mempesona seketika.", icon: "⭐" },
                 { title: "Penambalan Estetik", desc: "Tambal gigi dengan bahan yang menyerupai warna asli gigi.", icon: "🔧" },
                 { title: "Pencabutan Gigi", desc: "Prosedur ekstraksi yang aman dan minim rasa sakit.", icon: "🏥" },
@@ -269,7 +268,6 @@ export default function Home() {
                             <SelectItem value="konsultasi">Konsultasi</SelectItem>
                             <SelectItem value="scaling">Pembersihan (Scaling)</SelectItem>
                             <SelectItem value="tambal">Tambal Gigi</SelectItem>
-                            <SelectItem value="behel">Kawat Gigi</SelectItem>
                             <SelectItem value="lainnya">Lainnya</SelectItem>
                           </SelectContent>
                         </Select>
